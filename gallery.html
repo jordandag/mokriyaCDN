@@ -95,11 +95,60 @@
 
     <!-- Navbar End -->
 
-    <div class="container-fluid">
-      <div class="row w-100">
-        <h1>Gallery</h1>
+    <section class="gallery min-vh-100">
+      <div class="container-lg">
+        <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+          <div class="col">
+            <img src="./img/groupPIc.JPG" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="./img/IMG_1194.JPG" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="./img/IMG_1199.JPG" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="./img/IMG_1228.JPG" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="./img/IMG_1235.JPG" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="./img/IMG_1244.JPG" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="./img/IMG_1262.JPG" class="gallery-item" alt="gallery" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="gallery-modal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img src="./img/groupPIc.JPG" class="modal-img" alt="modal img" />
+          </div>
+        </div>
       </div>
     </div>
+
     <!-- Footer Start -->
 
     <footer class="bg-dark text-white pt-5 pb-4">
@@ -242,5 +291,6 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+    <script src="./main.js"></script>
   </body>
 </html>

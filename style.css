@@ -235,3 +235,11 @@ img {
 #gallery-modal .modal-img {
   width: 100%;
 }
+
+/* test */
+.cards-wrapper {
+  display: flex;
+}
+.card {
+  margin: 0.5em;
+}
